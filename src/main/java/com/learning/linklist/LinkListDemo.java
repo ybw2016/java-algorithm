@@ -1,5 +1,20 @@
 package com.learning.linklist;
 
+/**
+ * 将链表的后半部分逆序并逐个插入到前半部分中
+ *
+ * 样例一：
+ * 输入链表:
+ * 1 2 3 4 5
+ * 输出链表:
+ * 1 5 2 4 3
+ *
+ * 样例二：
+ * 输入链表:
+ * 1 2 3 4
+ * 输出链表:
+ * 1 4 2 3
+ */
 public class LinkListDemo {
     public static void main(String[] args) {
         Node head = generateLinkList(5);
