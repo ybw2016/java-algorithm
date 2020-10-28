@@ -91,9 +91,9 @@ public class SplitLinkList2MultiParts {
             totalCount++;
         }
 
-        if (totalCount % parts != 0) {
-            throw new RuntimeException("链表结点数必须是分割数的整数倍！");
-        }
+        //if (totalCount % parts != 0) {
+        //    throw new RuntimeException("链表结点数必须是分割数的整数倍！");
+        //}
 
         NodeStep nodeStep = new NodeStep();
         nodeStep.firstSplitNode = slow;

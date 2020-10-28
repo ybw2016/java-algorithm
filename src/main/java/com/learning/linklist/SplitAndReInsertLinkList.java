@@ -15,7 +15,7 @@ package com.learning.linklist;
  * 输出链表:
  * 1 4 2 3
  */
-public class LinkListDemo {
+public class SplitAndReInsertLinkList {
     public static void main(String[] args) {
         Node head = generateLinkList(5);
 
