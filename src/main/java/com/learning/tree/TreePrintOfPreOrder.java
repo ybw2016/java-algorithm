@@ -2,14 +2,16 @@ package com.learning.tree;
 
 /**
  * 先序输出二叉树的结点（先根后子结点）
- *
+ * <p>
  * 有以下二叉树：
  * ___________________A
  * _______________B       C
  * ____________D    E  F
  * _________G    H
- *
- * 输出结果： A B D G H E C F
+ * <p>
+ * 输出结果（先序）： A B D G H E C F
+ * 输出结果（中序）： G D H B E A F C
+ * 输出结果（后序）： G H D E B F C A
  *
  * @author bw
  * @since 2020-10-23
