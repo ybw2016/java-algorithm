@@ -1,4 +1,4 @@
-package com.learning.sort.divideandconquer;
+package com.learning.sort.changesort;
 
 /**
  * https://blog.51cto.com/u_15671528/5524399
