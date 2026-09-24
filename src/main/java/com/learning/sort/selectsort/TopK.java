@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 求最大的前几个数和最小的前几个数
  * 1、TopK解法;（用小顶堆/大顶堆思想）
  * 2、Java里面的优先队列本身就自带排序功能 {@link java.util.PriorityQueue}
- * 3、其它方法：（）
+ * 3、其它方法：（可以添加到list中然后每次排序再判断）
  *
  * @author yanbowen
  * @since 2026-09-22
