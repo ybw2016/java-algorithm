@@ -24,9 +24,11 @@ public class QuickSortIndex {
     }
 
     public static int partition(int[] arr, int leftIndex, int rightIndex) {
+        // 先定一下基准值，后面数据左右交换都基于此值（优化方式：随机选基准、三数取中法）
         int pivot = arr[leftIndex];
         int left = leftIndex;
         int right = rightIndex;
+        // 循环遍历当前区间，将左边的大值和右边的小值进行互换
         while (left < right) {
             while (left < right && arr[right] >= pivot) right--;
             arr[left] = arr[right];
